@@ -17,7 +17,7 @@ function Hebergement ({donnees}){
 }
 
 export const getStaticProps = async () => {
-  const res = await fetch ('http://192.168.0.33:1337/hostings')
+  const res = await fetch ('https://devwarehouse.ddns.net/bo-redpanda/data.js')
   const donnees = await res.json()
   return {
     props: {
