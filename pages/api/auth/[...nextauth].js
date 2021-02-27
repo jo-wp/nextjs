@@ -14,7 +14,7 @@ const options = {
             return true
           },
           async redirect(url, baseUrl) {
-            return 'http://192.168.0.33:3000'
+            return 'https://nextjs-nu-weld.vercel.app'
           },
           async session(session, user) {
             return session
